@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Love Confession Website | Aoudumber Bade">
+    <meta name="github" content="https://github.com/Aoudumber-Bade">
+    <link rel="website icon" type="png" href="heart.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Love Confession</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bilbo+Swash+Caps&family=Inter:opsz,wght@14..32,500&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+        body {
+            background-image: linear-gradient(rgb(206 187 187 / 0%), rgb(255 0 129 / 35%)), url(bgr1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* position: relative; */
+        }
+        .wrapper {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 966px;
+            height: 540px;
+            padding: 20px;
+            box-shadow: -5px -5px 10px rgb(255 255 255 / 80%), 10px 5px 10px rgb(0 0 0 / 28%);
+        }
+        .text {
+            text-align: center;
+            color: red;
+            padding: 10px 0px;
+            font-size: 25px;
+            font-family: "Pacifico", sans-serif;
+            /* font-family: 'Ms Madi', cursive; */
+            font-weight: 300;
+        }
+        .fa-solid{
+            color: red;
+            margin: 0px 5px;
+        }
+        .text-crush {
+            padding: 0px 15px 10px 15px;
+            color: #87001e;
+            font-size: 1.4rem;
+            line-height: 43px;
+            font-family: 'Pacifico', cursive;
+            white-space: pre-wrap;
+        }
+        #yours {
+            display: none;
+            text-align: right;
+            font-size: 1.2rem;
+            margin-right: 30px;
+            color: #87001e;
+            font-family: 'Pacifico', cursive;
+        }
+        @media screen and (max-width: 768px) {
+            body{
+                background-size: cover;
+                object-fit: cover;
+            }
+            .wrapper{
+                width: 300px;
+                height: 100%;
+            }
+            .text-crush {
+                padding: 0px 15px 10px 15px;
+                color: #87001e;
+                font-size: .8rem;
+                line-height: 23px;
+                font-family: 'Pacifico', cursive;
+                white-space: pre-wrap;
+            }
+            #yours {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="items"></div>
+        <div class="content">
+            <div class="text"><i class="fa-solid fa-heart"></i>To You!<i class="fa-solid fa-heart"></i></div>
+            <div class="text-crush" id="text-crush"></div>
+            <div id="yours">- Yours Vikram 💗</div>
+        </div>
+    </div>
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/clicklove.js"></script>
+    <script>
+        const text = `After going through a few broken relationships, I thought I could never love anyone again. I had gotten used to doing everything alone for a very long time. So long that I can't even remember the exact time anymore.
+But then fate brought me to you and I liked you before I even realized it. There are a million ways to say "I love you," but none will ever be enough to capture what I truly feel for you. You are the sweetest, kindest, and most beautiful soul I have ever met. Before I even touched you, I fell in love with you—your heart, your mind, your existence. Every moment with you is like a dream I never want to wake up from.
+
+I know sometimes you worry about the future, about where life will take us, but my love, I want you to know one thing with absolute certainty—I am not going anywhere. No matter how tough life gets, no matter what challenges come our way, you and I will face them together, hand in hand. You are not just my love; you are my strength, my peace, my safe place.
+
+You have stood by me in my toughest moments, never once making me feel alone. I am grateful to God for putting me in these situations, not to test me but to show me just how precious our bond is. You have taught me the meaning of love—not just in words but in the way you care for me, understand me, and make me feel special every single day.
+
+I love the way you are—perfect in every way to me. I love pampering you, making you smile, and dreaming of a future where it's just you and me, building a life filled with love, laughter, and endless happiness. You are my person, my forever, my home.
+
+No matter where life takes us, I promise you this—I will always choose you. Today, tomorrow, and every day after that.
+        
+I couldn't stop myself from talking to you, being close to you. Each day that passed, my feelings grew stronger. I couldn't stop myself from thinking about you, from loving you. It seems like this heart isn't mine anymore. Why doesn't it listen to me?`;
+
+        let index = 0;
+        const speed = 70; // typing speed in milliseconds
+
+        function typeWriter() {
+            if (index < text.length) {
+                document.getElementById("text-crush").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            } else {
+                document.getElementById("yours").style.display = 'block';
+            }
+        }
+
+        window.onload = typeWriter;
+    </script>
+</body>
+</html>
